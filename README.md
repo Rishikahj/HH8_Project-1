@@ -1,44 +1,55 @@
-SOC Incident Response Lab – Minor Project 1
+# SOC Incident Response Lab – Minor Project 1
 
-This repository is part of the HackerHub8 internship program.
-The objective of this project is to gain foundational knowledge in cybersecurity and SOC operations through practical learning and documentation.
+This repository is part of the **HackerHub8 Internship Program**.  
+The goal of this project is to build a basic understanding of SOC concepts using hands-on Linux practice and proper documentation.
 
-Tools and Environment
-- Oracle VirtualBox
-- Kali Linux
+---
 
-Project Structure
-- README.md – Project overview and daily progress
-- Screenshots – Screenshots of command execution and system outputs
-- Timeline – Day-wise project activity log
-- Notes – Learning notes and observations
-
-Day 1 – Environment Setup
-On Day 1, I created the GitHub repository and set up the lab environment.
-I installed Oracle VirtualBox and Kali Linux and verified that the Kali Linux virtual machine runs successfully.
-This setup is used for practicing basic SOC and cybersecurity concepts.
+# Tools & Environment
+- Oracle VirtualBox  
+- Kali Linux  
 
 
-Day 2 – Linux Basics
-On Day 2, I practiced basic Linux terminal commands in Kali Linux.
-I explored directory navigation, checked system information, and updated the system.
-Screenshots of command execution are added in the Screenshots folder as proof of work.
+# Project Structure
+- **README.md** – Project overview and daily progress  
+- **Screenshots/** – Proof of command execution  
+- **Timeline/** – Day-wise activity log  
+- **Notes/** – Learning notes and observations  
 
-Day 3 – Network and System Commands
-On Day 3, I executed basic network and system monitoring commands in Kali Linux to understand system status and network information.
 
-Commands Executed:-
+## Day 1 – Environment Setup
+On Day 1, I set up the lab environment required for the SOC project.
 
-*Network Commands*
--ip a – Checked network interfaces and IP address
--ip route – Viewed routing and default gateway
--ping 8.8.8.8 – Tested network connectivity
--ss -tuln – Viewed listening ports and active services
+# Tasks Completed
+- Created the GitHub repository  
+- Installed Oracle VirtualBox  
+- Installed Kali Linux virtual machine  
+- Verified that Kali Linux boots and runs successfully  
+This environment will be used for all further SOC practice.
 
-*System Commands*
--uptime – Checked system running time and load
--whoami – Verified current logged-in user
--hostname – Checked system hostname
--df -h – Viewed disk usage
+## Day 2 – Linux Basics
+On Day 2, I practiced basic Linux commands to understand system navigation and information.
 
-Screenshots of these command executions are uploaded in the Screenshots folder.
+### Commands Practiced
+- `pwd` – Checked current directory  
+- `ls` – Listed files and folders  
+- `cd` – Navigated between directories  
+- `uname -a` – Viewed system information  
+- `whoami` – Checked logged-in user  
+- `sudo apt update` – Updated system packages  
+
+## Day 3 – Network & System Commands
+On Day 3, I executed basic system and network monitoring commands in Kali Linux.
+
+### Network Commands
+- `ip a` – Checked network interfaces and IP address  
+- `ip route` – Viewed routing table  
+- `ping 8.8.8.8` – Tested internet connectivity  
+- `ss -tuln` – Viewed active listening ports  
+
+### System Commands
+- `uptime` – Checked system running time  
+- `hostname` – Viewed system hostname  
+- `df -h` – Checked disk usage  
+
+Screenshots for these commands are uploaded in the **Screenshots** folder as proof of execution.
