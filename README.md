@@ -23,3 +23,22 @@ Day 2 – Linux Basics
 On Day 2, I practiced basic Linux terminal commands in Kali Linux.
 I explored directory navigation, checked system information, and updated the system.
 Screenshots of command execution are added in the Screenshots folder as proof of work.
+
+Day 3 – Network and System Commands
+On Day 3, I executed basic network and system monitoring commands in Kali Linux to understand system status and network information.
+
+Commands Executed:-
+
+*Network Commands*
+-ip a – Checked network interfaces and IP address
+-ip route – Viewed routing and default gateway
+-ping 8.8.8.8 – Tested network connectivity
+-ss -tuln – Viewed listening ports and active services
+
+*System Commands*
+-uptime – Checked system running time and load
+-whoami – Verified current logged-in user
+-hostname – Checked system hostname
+-df -h – Viewed disk usage
+
+Screenshots of these command executions are uploaded in the Screenshots folder.
