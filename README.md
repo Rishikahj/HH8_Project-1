@@ -53,3 +53,13 @@ On Day 3, I executed basic system and network monitoring commands in Kali Linux.
 - `df -h` – Checked disk usage  
 
 Screenshots for these commands are uploaded in the **Screenshots** folder as proof of execution.
+
+## Day 4 – Linux Security Fundamentals
+
+On Day 4, I focused on understanding core Linux security concepts that are important for SOC operations.
+I practiced managing file permissions to control access, reviewed user and group information, and checked login activity.
+
+I also monitored running processes and system resource usage to understand how SOC analysts identify abnormal behavior.
+Additionally, I explored system and authentication log files to gain basic awareness of how system activities are recorded.
+Screenshots of all command executions are uploaded in the **Screenshots** folder as proof of work.
+
