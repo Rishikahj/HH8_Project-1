@@ -63,3 +63,16 @@ I also monitored running processes and system resource usage to understand how S
 Additionally, I explored system and authentication log files to gain basic awareness of how system activities are recorded.
 Screenshots of all command executions are uploaded in the **Screenshots** folder as proof of work.
 
+## Day 5 – Authentication Logs, Login Activity & Incident Awareness
+
+On Day 5, I analyzed Linux authentication and system logs to understand how user login activities
+and security-related events are recorded. I examined authentication logs to identify successful
+and failed login attempts and reviewed login history and active user sessions.
+
+I also explored system logs to observe how errors and warnings are logged.
+Based on these observations, I documented a simple incident scenario involving multiple failed
+login attempts and understood how early detection helps SOC analysts respond to potential threats.
+
+Screenshots of all command executions and log observations are available in the Screenshots folder.
+
+
