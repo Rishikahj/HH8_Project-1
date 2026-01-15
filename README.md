@@ -47,7 +47,14 @@ activities and document findings through hands-on practice.
 
 ## Repository Structure
 - **README.md** – Project overview and learning summary  
-- **Screenshots/** – Output screenshots and proof of work  
+- **Screenshots/** – Output screenshots and proof of work
+
+### Metasploitable2 Setup
+
+Metasploitable2 vulnerable virtual machine was successfully configured in VirtualBox.  
+Boot issues were resolved by attaching the correct virtual disk, and the system was started successfully.  
+Login access was verified using default credentials, confirming the target machine is ready for vulnerability testing.
+
 
 
 
