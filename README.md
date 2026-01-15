@@ -73,6 +73,5 @@ I also explored system logs to observe how errors and warnings are logged.
 Based on these observations, I documented a simple incident scenario involving multiple failed
 login attempts and understood how early detection helps SOC analysts respond to potential threats.
 
-Screenshots of all command executions and log observations are available in the Screenshots folder.
 
 
