@@ -54,6 +54,10 @@ Metasploitable2 vulnerable virtual machine was successfully configured in Virtua
 Boot issues were resolved by attaching the correct virtual disk, and the system was started successfully.  
 Login access was verified using default credentials, confirming the target machine is ready for vulnerability testing.
 
+✔ Enumerated potential vulnerabilities using Nmap vulnerability scripts  
+✔ Identified high-risk services such as FTP, Telnet, HTTP, and SMB for further analysis
+
+
 
 
 
