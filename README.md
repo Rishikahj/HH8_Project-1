@@ -57,6 +57,11 @@ Login access was verified using default credentials, confirming the target machi
 ✔ Enumerated potential vulnerabilities using Nmap vulnerability scripts  
 ✔ Identified high-risk services such as FTP, Telnet, HTTP, and SMB for further analysis
 
+##Service Enumeration
+Additional Nmap scans were performed using -Pn and service-specific scripts
+to enumerate FTP and identify potential attack vectors.
+
+
 
 
 
