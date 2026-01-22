@@ -1,65 +1,55 @@
 # SOC Fundamentals and Incident Response Lab
 
 This repository is part of the **HackerHub8 Internship Program**.
-The project aims to provide practical exposure to fundamental
-Security Operations Center (SOC) concepts through a controlled
-virtual lab environment.
+The project provides hands-on exposure to fundamental Security
+Operations Center (SOC) concepts using a controlled virtual
+lab environment.
 
 ---
 
 ## Project Overview
 The objective of this project is to understand how SOC analysts
-monitor systems, analyze logs, and identify potential security
-incidents. The work focuses on Linux system behavior, network
-monitoring, authentication logs, and basic incident awareness.
+monitor systems, analyze system behavior, and identify potential
+security incidents. The work focuses on Linux system observation,
+network activity analysis, service enumeration, and basic incident
+awareness.
 
-A safe and isolated virtual lab is used to observe security-related
-activities and document findings through hands-on practice.
+A safe and isolated virtual lab environment is used to perform
+practical security analysis and document observations through
+hands-on exercises.
 
 ---
 
 ## Tools & Environment
 - Oracle VirtualBox  
-- Kali Linux  
-- Metasploitable 2  
+- Kali Linux (Attacker / Analysis Machine)  
+- Metasploitable 2 (Vulnerable Target System)  
 - Host Operating System: Windows  
 
 ---
 
 ## Key Activities Performed
-- Set up and configured a virtual lab environment
-- Practiced Linux system and network commands
-- Monitored running processes and system resources
-- Analyzed authentication and system log files
-- Observed login activity and identified suspicious behavior
-- Introduced a deliberately vulnerable system (Metasploitable) for security learning
+- Configured and managed a virtual cybersecurity lab environment
+- Practiced Linux system and network monitoring commands
+- Verified network connectivity and observed system behavior
+- Performed service discovery and enumeration on a vulnerable system
+- Explored Metasploit modules for security analysis
+- Studied authentication behavior and service exposure for incident awareness
 
 ---
 
 ## Learning Outcomes
-- Gained hands-on experience with Linux system monitoring
-- Understood basic SOC operations and incident detection
-- Learned the importance of logs in identifying security events
-- Developed awareness of secure and insecure system configurations
-- Improved technical documentation and version control practices using GitHub
+- Gained practical experience with Linux-based system monitoring
+- Understood basic SOC workflows and incident investigation concepts
+- Learned the role of reconnaissance and enumeration in security analysis
+- Developed awareness of common misconfigurations and vulnerable services
+- Improved documentation and version control practices using GitHub
 
 ---
 
 ## Repository Structure
 - **README.md** – Project overview and learning summary  
-- **Screenshots/** – Output screenshots and proof of work
-
-### Metasploitable2 Setup
-Metasploitable2 vulnerable virtual machine was successfully configured in VirtualBox.  
-Boot issues were resolved by attaching the correct virtual disk, and the system was started successfully.  
-Login access was verified using default credentials, confirming the target machine is ready for vulnerability testing.
-
-✔ Enumerated potential vulnerabilities using Nmap vulnerability scripts  
-✔ Identified high-risk services such as FTP, Telnet, HTTP, and SMB for further analysis
-
-##Service Enumeration
-Additional Nmap scans were performed using -Pn and service-specific scripts
-to enumerate FTP and identify potential attack vectors.
+- **Screenshots/** – Output screenshots and proof of hands-on work
 
 
 
